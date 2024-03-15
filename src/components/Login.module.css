@@ -1,0 +1,30 @@
+.loginButton{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+background-color: #7743DB;
+padding: 10px 20px;
+color: #fff;
+border-radius: 5px;
+border: none;
+font-size: 1rem;
+
+font-weight: 1000;
+transition: all 0.1s ease-in;
+cursor: pointer;
+vertical-align: middle;
+}
+.loginButton p::after{
+   
+    content: "";
+    vertical-align: middle;
+}
+.icon{
+    font-size:20px;
+    vertical-align: middle;
+}
+
+.loginButton:hover {
+    background-color:  #c7aef6;
+  }

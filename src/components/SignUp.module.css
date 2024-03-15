@@ -1,0 +1,27 @@
+.signUpButton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 120px;
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #7743DB;
+    border-radius: 5px;
+    font-size: 1rem;
+    /* font-size: 0.875rem; */
+   font-weight: 1000;
+   transition: all 0.1s ease-in;
+   cursor: pointer;
+   border: 1px solid #7743DB;
+}
+.signUpButton p::after{
+   
+    content: "";
+    vertical-align: middle;
+}
+.icon{
+    font-size:20px;
+    vertical-align: auto;
+}
+.signUpButton:hover {
+    background-color:  #c7aef6;
+  }
